@@ -6,7 +6,7 @@ import { MobileInvoiceListView } from "./mobile/invoice-list-view";
 // ------------------------------------------------------------
 
 export function InvoiceListView() {
-  const isMobile = useMobileUI(768);
+  const isMobile = useMobileUI(1024);
 
   return isMobile ? <MobileInvoiceListView /> : "";
 }

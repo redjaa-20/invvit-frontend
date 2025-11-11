@@ -12,7 +12,7 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { isMobile, hasChecked } = useMobileUI(768);
+  const { isMobile, hasChecked } = useMobileUI(1024);
 
   if (!hasChecked) {
     return <LoadingScreen />;

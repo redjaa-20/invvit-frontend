@@ -1,12 +1,12 @@
 "use client";
 
 import { useMobileUI } from "src/hooks/use-mobile-ui";
-import { MobileCreditHistoryView } from "./mobile/credit-history-view";
+import { MobileTemplateListView } from "./mobile/template-list-view";
 
 // ------------------------------------------------------------
 
-export function CreditHistoryView() {
+export function TemplateListView() {
   const isMobile = useMobileUI(1024);
 
-  return isMobile ? <MobileCreditHistoryView /> : "";
+  return isMobile ? <MobileTemplateListView /> : "";
 }

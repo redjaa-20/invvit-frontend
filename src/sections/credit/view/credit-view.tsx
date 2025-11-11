@@ -6,7 +6,7 @@ import { MobileCreditView } from "./mobile/credit-view";
 // ------------------------------------------------------------
 
 export function CreditView() {
-  const isMobile = useMobileUI(768);
+  const isMobile = useMobileUI(1024);
 
   return isMobile ? <MobileCreditView /> : "";
 }

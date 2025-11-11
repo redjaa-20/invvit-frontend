@@ -11,7 +11,7 @@ export function MobileDashboardView() {
       <div className="flex items-center justify-between mb-7">
         <div className="flex items-center gap-4">
           <Avatar className="h-10 w-10">
-            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarImage src="/assets/images/avatar/foto-profil.png" />
             <AvatarFallback>RD</AvatarFallback>
           </Avatar>
           <div className="flex flex-col">

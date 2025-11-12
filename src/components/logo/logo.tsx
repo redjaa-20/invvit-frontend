@@ -6,12 +6,16 @@ interface LogoProps {
   width?: number | string;
   height?: number | string;
   className?: string;
+  primaryColor?: string;
+  secondaryColor?: string;
 }
 
 const Logo: React.FC<LogoProps> = ({
   width = "100%",
   height = "100%",
   className,
+  primaryColor = "#3B82F6",
+  secondaryColor = "#1E3A8A",
 }) => {
   const InvvitLogo = (
     <svg
@@ -44,8 +48,8 @@ const Logo: React.FC<LogoProps> = ({
           y2="352.001"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#3B82F6" />
-          <stop offset="1" stopColor="#1E3A8A" />
+          <stop stopColor={primaryColor} />
+          <stop offset="1" stopColor={secondaryColor} />
         </linearGradient>
         <linearGradient
           id="paint1_linear_121_3"
@@ -55,8 +59,8 @@ const Logo: React.FC<LogoProps> = ({
           y2="550.766"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#3B82F6" />
-          <stop offset="1" stopColor="#1E3A8A" />
+          <stop stopColor={primaryColor} />
+          <stop offset="1" stopColor={secondaryColor} />
         </linearGradient>
         <linearGradient
           id="paint2_linear_121_3"
@@ -66,8 +70,8 @@ const Logo: React.FC<LogoProps> = ({
           y2="577.838"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#1E3A8A" />
-          <stop offset="1" stopColor="#3B82F6" />
+          <stop stopColor={secondaryColor} />
+          <stop offset="1" stopColor={primaryColor} />
         </linearGradient>
       </defs>
     </svg>

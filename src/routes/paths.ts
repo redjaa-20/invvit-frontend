@@ -10,8 +10,8 @@ const ROOTS = {
 
 export const paths = {
   auth: {
-    signIn: `${ROOTS.AUTH}/sign-in`,
-    signUp: `${ROOTS.AUTH}/sign-up`,
+    login: `${ROOTS.AUTH}/login`,
+    register: `${ROOTS.AUTH}/register`,
   },
   dashboard: {
     root: ROOTS.DASHBOARD,

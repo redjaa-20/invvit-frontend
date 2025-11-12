@@ -19,7 +19,7 @@ const navData = [
   { href: paths.dashboard.invoice.root, icon: "solar:document-text-outline" },
   { href: paths.dashboard.credit.root, icon: "solar:wallet-2-outline" },
   { href: paths.dashboard.template.root, icon: "solar:palette-outline" },
-  { href: paths.dashboard.invoice.create, icon: "solar:user-outline" },
+  { href: paths.dashboard.account.root, icon: "solar:user-outline" },
 ];
 
 // ------------------------------------------------------------
